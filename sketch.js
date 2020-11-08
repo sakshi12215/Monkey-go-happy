@@ -89,9 +89,9 @@ function fruit() {
 function obstacles() {
 
   if (frameCount % 300 === 0) {
-    obstacle = createSprite(600, 290, 40, 10);
+    obstacle = createSprite(600, 330, 40, 10);
     obstacle.addImage(obstacleImage)
-    obstacle.scale = 0.4;
+    obstacle.scale = 0.2;
     obstacle.velocityX = -3;
     obstacle.lifetime = 240;
     obstacleGroup.add(obstacle);
